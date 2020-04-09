@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Book {
 
     @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private double id;
     private String name;
     private String author;
